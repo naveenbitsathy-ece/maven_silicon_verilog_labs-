@@ -1,0 +1,26 @@
+`timescale 1ns/1ps
+
+module mod12_counter(
+input clk,rst,load,
+input [3:0]data_in,
+output reg [3:0]data_out 
+);
+
+always@(posedge clk)
+begin
+if(rst)
+
+data_out <= 4'b0000;
+
+else if(load)
+
+data_out <= data_in;
+ 
+else if(data_out == 4'b1011)
+
+data_out <= 4'b0000;
+
+else 
+data_out <= data_out +1'b1;
+end 
+endmodule 

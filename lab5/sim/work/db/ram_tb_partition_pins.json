@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "we_in",
+					"strict" : false
+				},
+				{
+					"name" : "enable_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q5/rtl/decoder_2to4.v {1 {vlog -work work -stats=none {C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab1\assignments\Q5\rtl\decoder_2to4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder_2to4
+
+Top level modules:
+	decoder_2to4
+
+} {} {}} C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q5/tb/tb_mux_4to1.v {1 {vlog -work work -stats=none C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q5/tb/tb_mux_4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_mux4to1
+
+Top level modules:
+	tb_mux4to1
+
+} {} {}} C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q5/rtl/Mux_Decoder4to1.v {1 {vlog -work work -stats=none C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q5/rtl/Mux_Decoder4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux_Decoder4to1
+
+Top level modules:
+	Mux_Decoder4to1
+
+} {} {}}

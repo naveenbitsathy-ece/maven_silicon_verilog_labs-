@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/sim/work/simulation/modelsim
+vSR_latch
+Z1 !s110 1780724887
+!i10b 1
+!s100 nYRT=o7il9mh^lil^?Dcl0
+I2e9hR=VKRGbg[bTiBAA=j2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1780724864
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/rtl/SR_latch.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/rtl/SR_latch.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1780724887.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/rtl/SR_latch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/rtl|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/rtl/SR_latch.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/rtl
+Z6 tCvgOpt 0
+n@s@r_latch
+vSR_latch_tb
+R1
+!i10b 1
+!s100 EmYF[5:6be1j1=>MfC[oi2
+Io3Qm9MHml9`?HL3QaO4EY2
+R2
+R0
+w1780722164
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/sim/work/../../tb/SR_latch_tb.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/sim/work/../../tb/SR_latch_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/sim/work/../../tb/SR_latch_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/sim/work/../../tb|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/sim/work/../../tb/SR_latch_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q1/sim/work/../../tb
+R6
+n@s@r_latch_tb

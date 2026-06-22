@@ -1,0 +1,28 @@
+module ram_dp(
+     input wr_en,rd_en,clk,rst,
+     input [3:0]wr_addr,rd_addr,   //depth:16 width:8
+     input [7:0]data_in,
+     output reg[7:0]data_out  // 8 bit data in and data out 
+);
+  integer i;
+reg [7:0]mem[15:0];
+always@(posedge clk)
+  begin
+if(rst)
+begin
+  data_out<=8'b00000000;
+for(i=0;i<16;i=i+1)
+begin
+mem[i]=0;
+end
+end
+else 
+begin
+   
+    if(wr_en)
+    mem[wr_addr]<=data_in;         //Write operation
+   if(rd_en)
+    data_out<=mem[rd_addr];        //Read operation
+end
+  end 
+endmodule 

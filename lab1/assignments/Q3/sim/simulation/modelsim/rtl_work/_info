@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/simulation/modelsim
+vfull_adder
+Z1 !s110 1781064092
+!i10b 1
+!s100 lAZmjzQnGa?QHa9X6ILQg1
+IY2=^HS6C^@ANRefj7bmz:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1773731536
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/1bit_full_adder.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/1bit_full_adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1781064092.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/1bit_full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/1bit_full_adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl
+Z7 tCvgOpt 0
+vripple_carry_adder_4bit
+R1
+!i10b 1
+!s100 ZR=LPU76[:::8b4EUTAjH1
+IXM0Yz7bIHMZP4415ISV5c3
+R2
+R0
+w1773731624
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/ripple_carry_adder_4bit.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/ripple_carry_adder_4bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/ripple_carry_adder_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/ripple_carry_adder_4bit.v|
+!i113 1
+R5
+R6
+R7
+vripple_carry_adder_4bit_tb
+R1
+!i10b 1
+!s100 S1Cbc0OACYlBE0K1UYzll1
+Iba2]7bVg9f7b@^H1mIbPI2
+R2
+R0
+w1773731765
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb
+R7

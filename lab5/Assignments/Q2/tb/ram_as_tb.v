@@ -1,0 +1,60 @@
+// Code your testbench here
+// or browse Examples
+module ram_as_tb;
+reg rd_en,wr_en;
+  reg [2:0]rd_addr;
+  reg [2:0]wr_addr;
+reg rst;
+reg [15:0]data_in;
+  wire  [15:0]data_out;
+
+ram_as DUT(
+rd_en,wr_en,rd_addr,wr_addr,rst,data_in,data_out);
+
+integer i;
+
+initial 
+begin 
+rst=1;
+#5;
+rst=0;
+end
+
+task stimula;
+input a,b;
+  input [2:0]c;
+  input[2:0] d;
+input [15:0]j;
+ 
+begin
+rd_en=a;
+wr_en=b;
+rd_addr=c;
+wr_addr=d;
+data_in=j;
+#10;
+end
+endtask 
+
+initial 
+begin
+  stimula(0,1,0,1,16'd3);//write
+  stimula(1,0,1,0,16'd6);//read
+  stimula(0,1,3,2,16'd7);//write
+  stimula(1,0,2,0,16'd8);//read
+  stimula(0,1,0,4,16'd4);//write
+  stimula(0,1,0,4,16'd2);//write 
+  stimula(1,0,4,0,16'd0);//read
+  stimula(1,0,4,0,16'd0);//read
+  
+ // stimula(1,1,2,1,16'd1); // Write and read 
+ //  stimula(1,1,2,1,16'd1);
+  
+end 
+
+initial 
+begin
+  $monitor(" Time =%0t| rst=%b | rd_en =%b | wr_en=%b | rd_addr=%b  |wr_addr=%b| data_in=%b |data_out=%b:",
+ $time,rst,rd_en,wr_en,rd_addr,wr_addr,data_in,data_out);
+end
+endmodule

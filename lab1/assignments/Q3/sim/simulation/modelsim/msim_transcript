@@ -1,0 +1,573 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ripple_carry_adder_4bit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl {C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/ripple_carry_adder_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:31:32 on Jun 10,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl" C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/ripple_carry_adder_4bit.v 
+# -- Compiling module ripple_carry_adder_4bit
+# 
+# Top level modules:
+# 	ripple_carry_adder_4bit
+# End time: 09:31:32 on Jun 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl {C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/1bit_full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:31:32 on Jun 10,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl" C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/rtl/1bit_full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 09:31:32 on Jun 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb {C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:31:32 on Jun 10,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb" C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v 
+# -- Compiling module ripple_carry_adder_4bit_tb
+# 
+# Top level modules:
+# 	ripple_carry_adder_4bit_tb
+# End time: 09:31:32 on Jun 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ripple_carry_adder_4bit_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ripple_carry_adder_4bit_tb 
+# Start time: 09:31:32 on Jun 10,2026
+# Loading work.ripple_carry_adder_4bit_tb
+# Loading work.ripple_carry_adder_4bit
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time=0 | a=0000 b=0000 cin=0 | sum=0000 cout=0
+# Time=10 | a=0000 b=0000 cin=1 | sum=0001 cout=0
+# Time=20 | a=0000 b=0001 cin=0 | sum=0001 cout=0
+# Time=30 | a=0000 b=0001 cin=1 | sum=0010 cout=0
+# Time=40 | a=0000 b=0010 cin=0 | sum=0010 cout=0
+# Time=50 | a=0000 b=0010 cin=1 | sum=0011 cout=0
+# Time=60 | a=0000 b=0011 cin=0 | sum=0011 cout=0
+# Time=70 | a=0000 b=0011 cin=1 | sum=0100 cout=0
+# Time=80 | a=0000 b=0100 cin=0 | sum=0100 cout=0
+# Time=90 | a=0000 b=0100 cin=1 | sum=0101 cout=0
+# Time=100 | a=0000 b=0101 cin=0 | sum=0101 cout=0
+# Time=110 | a=0000 b=0101 cin=1 | sum=0110 cout=0
+# Time=120 | a=0000 b=0110 cin=0 | sum=0110 cout=0
+# Time=130 | a=0000 b=0110 cin=1 | sum=0111 cout=0
+# Time=140 | a=0000 b=0111 cin=0 | sum=0111 cout=0
+# Time=150 | a=0000 b=0111 cin=1 | sum=1000 cout=0
+# Time=160 | a=0000 b=1000 cin=0 | sum=1000 cout=0
+# Time=170 | a=0000 b=1000 cin=1 | sum=1001 cout=0
+# Time=180 | a=0000 b=1001 cin=0 | sum=1001 cout=0
+# Time=190 | a=0000 b=1001 cin=1 | sum=1010 cout=0
+# Time=200 | a=0000 b=1010 cin=0 | sum=1010 cout=0
+# Time=210 | a=0000 b=1010 cin=1 | sum=1011 cout=0
+# Time=220 | a=0000 b=1011 cin=0 | sum=1011 cout=0
+# Time=230 | a=0000 b=1011 cin=1 | sum=1100 cout=0
+# Time=240 | a=0000 b=1100 cin=0 | sum=1100 cout=0
+# Time=250 | a=0000 b=1100 cin=1 | sum=1101 cout=0
+# Time=260 | a=0000 b=1101 cin=0 | sum=1101 cout=0
+# Time=270 | a=0000 b=1101 cin=1 | sum=1110 cout=0
+# Time=280 | a=0000 b=1110 cin=0 | sum=1110 cout=0
+# Time=290 | a=0000 b=1110 cin=1 | sum=1111 cout=0
+# Time=300 | a=0000 b=1111 cin=0 | sum=1111 cout=0
+# Time=310 | a=0000 b=1111 cin=1 | sum=0000 cout=1
+# Time=320 | a=0001 b=0000 cin=0 | sum=0001 cout=0
+# Time=330 | a=0001 b=0000 cin=1 | sum=0010 cout=0
+# Time=340 | a=0001 b=0001 cin=0 | sum=0010 cout=0
+# Time=350 | a=0001 b=0001 cin=1 | sum=0011 cout=0
+# Time=360 | a=0001 b=0010 cin=0 | sum=0011 cout=0
+# Time=370 | a=0001 b=0010 cin=1 | sum=0100 cout=0
+# Time=380 | a=0001 b=0011 cin=0 | sum=0100 cout=0
+# Time=390 | a=0001 b=0011 cin=1 | sum=0101 cout=0
+# Time=400 | a=0001 b=0100 cin=0 | sum=0101 cout=0
+# Time=410 | a=0001 b=0100 cin=1 | sum=0110 cout=0
+# Time=420 | a=0001 b=0101 cin=0 | sum=0110 cout=0
+# Time=430 | a=0001 b=0101 cin=1 | sum=0111 cout=0
+# Time=440 | a=0001 b=0110 cin=0 | sum=0111 cout=0
+# Time=450 | a=0001 b=0110 cin=1 | sum=1000 cout=0
+# Time=460 | a=0001 b=0111 cin=0 | sum=1000 cout=0
+# Time=470 | a=0001 b=0111 cin=1 | sum=1001 cout=0
+# Time=480 | a=0001 b=1000 cin=0 | sum=1001 cout=0
+# Time=490 | a=0001 b=1000 cin=1 | sum=1010 cout=0
+# Time=500 | a=0001 b=1001 cin=0 | sum=1010 cout=0
+# Time=510 | a=0001 b=1001 cin=1 | sum=1011 cout=0
+# Time=520 | a=0001 b=1010 cin=0 | sum=1011 cout=0
+# Time=530 | a=0001 b=1010 cin=1 | sum=1100 cout=0
+# Time=540 | a=0001 b=1011 cin=0 | sum=1100 cout=0
+# Time=550 | a=0001 b=1011 cin=1 | sum=1101 cout=0
+# Time=560 | a=0001 b=1100 cin=0 | sum=1101 cout=0
+# Time=570 | a=0001 b=1100 cin=1 | sum=1110 cout=0
+# Time=580 | a=0001 b=1101 cin=0 | sum=1110 cout=0
+# Time=590 | a=0001 b=1101 cin=1 | sum=1111 cout=0
+# Time=600 | a=0001 b=1110 cin=0 | sum=1111 cout=0
+# Time=610 | a=0001 b=1110 cin=1 | sum=0000 cout=1
+# Time=620 | a=0001 b=1111 cin=0 | sum=0000 cout=1
+# Time=630 | a=0001 b=1111 cin=1 | sum=0001 cout=1
+# Time=640 | a=0010 b=0000 cin=0 | sum=0010 cout=0
+# Time=650 | a=0010 b=0000 cin=1 | sum=0011 cout=0
+# Time=660 | a=0010 b=0001 cin=0 | sum=0011 cout=0
+# Time=670 | a=0010 b=0001 cin=1 | sum=0100 cout=0
+# Time=680 | a=0010 b=0010 cin=0 | sum=0100 cout=0
+# Time=690 | a=0010 b=0010 cin=1 | sum=0101 cout=0
+# Time=700 | a=0010 b=0011 cin=0 | sum=0101 cout=0
+# Time=710 | a=0010 b=0011 cin=1 | sum=0110 cout=0
+# Time=720 | a=0010 b=0100 cin=0 | sum=0110 cout=0
+# Time=730 | a=0010 b=0100 cin=1 | sum=0111 cout=0
+# Time=740 | a=0010 b=0101 cin=0 | sum=0111 cout=0
+# Time=750 | a=0010 b=0101 cin=1 | sum=1000 cout=0
+# Time=760 | a=0010 b=0110 cin=0 | sum=1000 cout=0
+# Time=770 | a=0010 b=0110 cin=1 | sum=1001 cout=0
+# Time=780 | a=0010 b=0111 cin=0 | sum=1001 cout=0
+# Time=790 | a=0010 b=0111 cin=1 | sum=1010 cout=0
+# Time=800 | a=0010 b=1000 cin=0 | sum=1010 cout=0
+# Time=810 | a=0010 b=1000 cin=1 | sum=1011 cout=0
+# Time=820 | a=0010 b=1001 cin=0 | sum=1011 cout=0
+# Time=830 | a=0010 b=1001 cin=1 | sum=1100 cout=0
+# Time=840 | a=0010 b=1010 cin=0 | sum=1100 cout=0
+# Time=850 | a=0010 b=1010 cin=1 | sum=1101 cout=0
+# Time=860 | a=0010 b=1011 cin=0 | sum=1101 cout=0
+# Time=870 | a=0010 b=1011 cin=1 | sum=1110 cout=0
+# Time=880 | a=0010 b=1100 cin=0 | sum=1110 cout=0
+# Time=890 | a=0010 b=1100 cin=1 | sum=1111 cout=0
+# Time=900 | a=0010 b=1101 cin=0 | sum=1111 cout=0
+# Time=910 | a=0010 b=1101 cin=1 | sum=0000 cout=1
+# Time=920 | a=0010 b=1110 cin=0 | sum=0000 cout=1
+# Time=930 | a=0010 b=1110 cin=1 | sum=0001 cout=1
+# Time=940 | a=0010 b=1111 cin=0 | sum=0001 cout=1
+# Time=950 | a=0010 b=1111 cin=1 | sum=0010 cout=1
+# Time=960 | a=0011 b=0000 cin=0 | sum=0011 cout=0
+# Time=970 | a=0011 b=0000 cin=1 | sum=0100 cout=0
+# Time=980 | a=0011 b=0001 cin=0 | sum=0100 cout=0
+# Time=990 | a=0011 b=0001 cin=1 | sum=0101 cout=0
+# Time=1000 | a=0011 b=0010 cin=0 | sum=0101 cout=0
+# Time=1010 | a=0011 b=0010 cin=1 | sum=0110 cout=0
+# Time=1020 | a=0011 b=0011 cin=0 | sum=0110 cout=0
+# Time=1030 | a=0011 b=0011 cin=1 | sum=0111 cout=0
+# Time=1040 | a=0011 b=0100 cin=0 | sum=0111 cout=0
+# Time=1050 | a=0011 b=0100 cin=1 | sum=1000 cout=0
+# Time=1060 | a=0011 b=0101 cin=0 | sum=1000 cout=0
+# Time=1070 | a=0011 b=0101 cin=1 | sum=1001 cout=0
+# Time=1080 | a=0011 b=0110 cin=0 | sum=1001 cout=0
+# Time=1090 | a=0011 b=0110 cin=1 | sum=1010 cout=0
+# Time=1100 | a=0011 b=0111 cin=0 | sum=1010 cout=0
+# Time=1110 | a=0011 b=0111 cin=1 | sum=1011 cout=0
+# Time=1120 | a=0011 b=1000 cin=0 | sum=1011 cout=0
+# Time=1130 | a=0011 b=1000 cin=1 | sum=1100 cout=0
+# Time=1140 | a=0011 b=1001 cin=0 | sum=1100 cout=0
+# Time=1150 | a=0011 b=1001 cin=1 | sum=1101 cout=0
+# Time=1160 | a=0011 b=1010 cin=0 | sum=1101 cout=0
+# Time=1170 | a=0011 b=1010 cin=1 | sum=1110 cout=0
+# Time=1180 | a=0011 b=1011 cin=0 | sum=1110 cout=0
+# Time=1190 | a=0011 b=1011 cin=1 | sum=1111 cout=0
+# Time=1200 | a=0011 b=1100 cin=0 | sum=1111 cout=0
+# Time=1210 | a=0011 b=1100 cin=1 | sum=0000 cout=1
+# Time=1220 | a=0011 b=1101 cin=0 | sum=0000 cout=1
+# Time=1230 | a=0011 b=1101 cin=1 | sum=0001 cout=1
+# Time=1240 | a=0011 b=1110 cin=0 | sum=0001 cout=1
+# Time=1250 | a=0011 b=1110 cin=1 | sum=0010 cout=1
+# Time=1260 | a=0011 b=1111 cin=0 | sum=0010 cout=1
+# Time=1270 | a=0011 b=1111 cin=1 | sum=0011 cout=1
+# Time=1280 | a=0100 b=0000 cin=0 | sum=0100 cout=0
+# Time=1290 | a=0100 b=0000 cin=1 | sum=0101 cout=0
+# Time=1300 | a=0100 b=0001 cin=0 | sum=0101 cout=0
+# Time=1310 | a=0100 b=0001 cin=1 | sum=0110 cout=0
+# Time=1320 | a=0100 b=0010 cin=0 | sum=0110 cout=0
+# Time=1330 | a=0100 b=0010 cin=1 | sum=0111 cout=0
+# Time=1340 | a=0100 b=0011 cin=0 | sum=0111 cout=0
+# Time=1350 | a=0100 b=0011 cin=1 | sum=1000 cout=0
+# Time=1360 | a=0100 b=0100 cin=0 | sum=1000 cout=0
+# Time=1370 | a=0100 b=0100 cin=1 | sum=1001 cout=0
+# Time=1380 | a=0100 b=0101 cin=0 | sum=1001 cout=0
+# Time=1390 | a=0100 b=0101 cin=1 | sum=1010 cout=0
+# Time=1400 | a=0100 b=0110 cin=0 | sum=1010 cout=0
+# Time=1410 | a=0100 b=0110 cin=1 | sum=1011 cout=0
+# Time=1420 | a=0100 b=0111 cin=0 | sum=1011 cout=0
+# Time=1430 | a=0100 b=0111 cin=1 | sum=1100 cout=0
+# Time=1440 | a=0100 b=1000 cin=0 | sum=1100 cout=0
+# Time=1450 | a=0100 b=1000 cin=1 | sum=1101 cout=0
+# Time=1460 | a=0100 b=1001 cin=0 | sum=1101 cout=0
+# Time=1470 | a=0100 b=1001 cin=1 | sum=1110 cout=0
+# Time=1480 | a=0100 b=1010 cin=0 | sum=1110 cout=0
+# Time=1490 | a=0100 b=1010 cin=1 | sum=1111 cout=0
+# Time=1500 | a=0100 b=1011 cin=0 | sum=1111 cout=0
+# Time=1510 | a=0100 b=1011 cin=1 | sum=0000 cout=1
+# Time=1520 | a=0100 b=1100 cin=0 | sum=0000 cout=1
+# Time=1530 | a=0100 b=1100 cin=1 | sum=0001 cout=1
+# Time=1540 | a=0100 b=1101 cin=0 | sum=0001 cout=1
+# Time=1550 | a=0100 b=1101 cin=1 | sum=0010 cout=1
+# Time=1560 | a=0100 b=1110 cin=0 | sum=0010 cout=1
+# Time=1570 | a=0100 b=1110 cin=1 | sum=0011 cout=1
+# Time=1580 | a=0100 b=1111 cin=0 | sum=0011 cout=1
+# Time=1590 | a=0100 b=1111 cin=1 | sum=0100 cout=1
+# Time=1600 | a=0101 b=0000 cin=0 | sum=0101 cout=0
+# Time=1610 | a=0101 b=0000 cin=1 | sum=0110 cout=0
+# Time=1620 | a=0101 b=0001 cin=0 | sum=0110 cout=0
+# Time=1630 | a=0101 b=0001 cin=1 | sum=0111 cout=0
+# Time=1640 | a=0101 b=0010 cin=0 | sum=0111 cout=0
+# Time=1650 | a=0101 b=0010 cin=1 | sum=1000 cout=0
+# Time=1660 | a=0101 b=0011 cin=0 | sum=1000 cout=0
+# Time=1670 | a=0101 b=0011 cin=1 | sum=1001 cout=0
+# Time=1680 | a=0101 b=0100 cin=0 | sum=1001 cout=0
+# Time=1690 | a=0101 b=0100 cin=1 | sum=1010 cout=0
+# Time=1700 | a=0101 b=0101 cin=0 | sum=1010 cout=0
+# Time=1710 | a=0101 b=0101 cin=1 | sum=1011 cout=0
+# Time=1720 | a=0101 b=0110 cin=0 | sum=1011 cout=0
+# Time=1730 | a=0101 b=0110 cin=1 | sum=1100 cout=0
+# Time=1740 | a=0101 b=0111 cin=0 | sum=1100 cout=0
+# Time=1750 | a=0101 b=0111 cin=1 | sum=1101 cout=0
+# Time=1760 | a=0101 b=1000 cin=0 | sum=1101 cout=0
+# Time=1770 | a=0101 b=1000 cin=1 | sum=1110 cout=0
+# Time=1780 | a=0101 b=1001 cin=0 | sum=1110 cout=0
+# Time=1790 | a=0101 b=1001 cin=1 | sum=1111 cout=0
+# Time=1800 | a=0101 b=1010 cin=0 | sum=1111 cout=0
+# Time=1810 | a=0101 b=1010 cin=1 | sum=0000 cout=1
+# Time=1820 | a=0101 b=1011 cin=0 | sum=0000 cout=1
+# Time=1830 | a=0101 b=1011 cin=1 | sum=0001 cout=1
+# Time=1840 | a=0101 b=1100 cin=0 | sum=0001 cout=1
+# Time=1850 | a=0101 b=1100 cin=1 | sum=0010 cout=1
+# Time=1860 | a=0101 b=1101 cin=0 | sum=0010 cout=1
+# Time=1870 | a=0101 b=1101 cin=1 | sum=0011 cout=1
+# Time=1880 | a=0101 b=1110 cin=0 | sum=0011 cout=1
+# Time=1890 | a=0101 b=1110 cin=1 | sum=0100 cout=1
+# Time=1900 | a=0101 b=1111 cin=0 | sum=0100 cout=1
+# Time=1910 | a=0101 b=1111 cin=1 | sum=0101 cout=1
+# Time=1920 | a=0110 b=0000 cin=0 | sum=0110 cout=0
+# Time=1930 | a=0110 b=0000 cin=1 | sum=0111 cout=0
+# Time=1940 | a=0110 b=0001 cin=0 | sum=0111 cout=0
+# Time=1950 | a=0110 b=0001 cin=1 | sum=1000 cout=0
+# Time=1960 | a=0110 b=0010 cin=0 | sum=1000 cout=0
+# Time=1970 | a=0110 b=0010 cin=1 | sum=1001 cout=0
+# Time=1980 | a=0110 b=0011 cin=0 | sum=1001 cout=0
+# Time=1990 | a=0110 b=0011 cin=1 | sum=1010 cout=0
+# Time=2000 | a=0110 b=0100 cin=0 | sum=1010 cout=0
+# Time=2010 | a=0110 b=0100 cin=1 | sum=1011 cout=0
+# Time=2020 | a=0110 b=0101 cin=0 | sum=1011 cout=0
+# Time=2030 | a=0110 b=0101 cin=1 | sum=1100 cout=0
+# Time=2040 | a=0110 b=0110 cin=0 | sum=1100 cout=0
+# Time=2050 | a=0110 b=0110 cin=1 | sum=1101 cout=0
+# Time=2060 | a=0110 b=0111 cin=0 | sum=1101 cout=0
+# Time=2070 | a=0110 b=0111 cin=1 | sum=1110 cout=0
+# Time=2080 | a=0110 b=1000 cin=0 | sum=1110 cout=0
+# Time=2090 | a=0110 b=1000 cin=1 | sum=1111 cout=0
+# Time=2100 | a=0110 b=1001 cin=0 | sum=1111 cout=0
+# Time=2110 | a=0110 b=1001 cin=1 | sum=0000 cout=1
+# Time=2120 | a=0110 b=1010 cin=0 | sum=0000 cout=1
+# Time=2130 | a=0110 b=1010 cin=1 | sum=0001 cout=1
+# Time=2140 | a=0110 b=1011 cin=0 | sum=0001 cout=1
+# Time=2150 | a=0110 b=1011 cin=1 | sum=0010 cout=1
+# Time=2160 | a=0110 b=1100 cin=0 | sum=0010 cout=1
+# Time=2170 | a=0110 b=1100 cin=1 | sum=0011 cout=1
+# Time=2180 | a=0110 b=1101 cin=0 | sum=0011 cout=1
+# Time=2190 | a=0110 b=1101 cin=1 | sum=0100 cout=1
+# Time=2200 | a=0110 b=1110 cin=0 | sum=0100 cout=1
+# Time=2210 | a=0110 b=1110 cin=1 | sum=0101 cout=1
+# Time=2220 | a=0110 b=1111 cin=0 | sum=0101 cout=1
+# Time=2230 | a=0110 b=1111 cin=1 | sum=0110 cout=1
+# Time=2240 | a=0111 b=0000 cin=0 | sum=0111 cout=0
+# Time=2250 | a=0111 b=0000 cin=1 | sum=1000 cout=0
+# Time=2260 | a=0111 b=0001 cin=0 | sum=1000 cout=0
+# Time=2270 | a=0111 b=0001 cin=1 | sum=1001 cout=0
+# Time=2280 | a=0111 b=0010 cin=0 | sum=1001 cout=0
+# Time=2290 | a=0111 b=0010 cin=1 | sum=1010 cout=0
+# Time=2300 | a=0111 b=0011 cin=0 | sum=1010 cout=0
+# Time=2310 | a=0111 b=0011 cin=1 | sum=1011 cout=0
+# Time=2320 | a=0111 b=0100 cin=0 | sum=1011 cout=0
+# Time=2330 | a=0111 b=0100 cin=1 | sum=1100 cout=0
+# Time=2340 | a=0111 b=0101 cin=0 | sum=1100 cout=0
+# Time=2350 | a=0111 b=0101 cin=1 | sum=1101 cout=0
+# Time=2360 | a=0111 b=0110 cin=0 | sum=1101 cout=0
+# Time=2370 | a=0111 b=0110 cin=1 | sum=1110 cout=0
+# Time=2380 | a=0111 b=0111 cin=0 | sum=1110 cout=0
+# Time=2390 | a=0111 b=0111 cin=1 | sum=1111 cout=0
+# Time=2400 | a=0111 b=1000 cin=0 | sum=1111 cout=0
+# Time=2410 | a=0111 b=1000 cin=1 | sum=0000 cout=1
+# Time=2420 | a=0111 b=1001 cin=0 | sum=0000 cout=1
+# Time=2430 | a=0111 b=1001 cin=1 | sum=0001 cout=1
+# Time=2440 | a=0111 b=1010 cin=0 | sum=0001 cout=1
+# Time=2450 | a=0111 b=1010 cin=1 | sum=0010 cout=1
+# Time=2460 | a=0111 b=1011 cin=0 | sum=0010 cout=1
+# Time=2470 | a=0111 b=1011 cin=1 | sum=0011 cout=1
+# Time=2480 | a=0111 b=1100 cin=0 | sum=0011 cout=1
+# Time=2490 | a=0111 b=1100 cin=1 | sum=0100 cout=1
+# Time=2500 | a=0111 b=1101 cin=0 | sum=0100 cout=1
+# Time=2510 | a=0111 b=1101 cin=1 | sum=0101 cout=1
+# Time=2520 | a=0111 b=1110 cin=0 | sum=0101 cout=1
+# Time=2530 | a=0111 b=1110 cin=1 | sum=0110 cout=1
+# Time=2540 | a=0111 b=1111 cin=0 | sum=0110 cout=1
+# Time=2550 | a=0111 b=1111 cin=1 | sum=0111 cout=1
+# Time=2560 | a=1000 b=0000 cin=0 | sum=1000 cout=0
+# Time=2570 | a=1000 b=0000 cin=1 | sum=1001 cout=0
+# Time=2580 | a=1000 b=0001 cin=0 | sum=1001 cout=0
+# Time=2590 | a=1000 b=0001 cin=1 | sum=1010 cout=0
+# Time=2600 | a=1000 b=0010 cin=0 | sum=1010 cout=0
+# Time=2610 | a=1000 b=0010 cin=1 | sum=1011 cout=0
+# Time=2620 | a=1000 b=0011 cin=0 | sum=1011 cout=0
+# Time=2630 | a=1000 b=0011 cin=1 | sum=1100 cout=0
+# Time=2640 | a=1000 b=0100 cin=0 | sum=1100 cout=0
+# Time=2650 | a=1000 b=0100 cin=1 | sum=1101 cout=0
+# Time=2660 | a=1000 b=0101 cin=0 | sum=1101 cout=0
+# Time=2670 | a=1000 b=0101 cin=1 | sum=1110 cout=0
+# Time=2680 | a=1000 b=0110 cin=0 | sum=1110 cout=0
+# Time=2690 | a=1000 b=0110 cin=1 | sum=1111 cout=0
+# Time=2700 | a=1000 b=0111 cin=0 | sum=1111 cout=0
+# Time=2710 | a=1000 b=0111 cin=1 | sum=0000 cout=1
+# Time=2720 | a=1000 b=1000 cin=0 | sum=0000 cout=1
+# Time=2730 | a=1000 b=1000 cin=1 | sum=0001 cout=1
+# Time=2740 | a=1000 b=1001 cin=0 | sum=0001 cout=1
+# Time=2750 | a=1000 b=1001 cin=1 | sum=0010 cout=1
+# Time=2760 | a=1000 b=1010 cin=0 | sum=0010 cout=1
+# Time=2770 | a=1000 b=1010 cin=1 | sum=0011 cout=1
+# Time=2780 | a=1000 b=1011 cin=0 | sum=0011 cout=1
+# Time=2790 | a=1000 b=1011 cin=1 | sum=0100 cout=1
+# Time=2800 | a=1000 b=1100 cin=0 | sum=0100 cout=1
+# Time=2810 | a=1000 b=1100 cin=1 | sum=0101 cout=1
+# Time=2820 | a=1000 b=1101 cin=0 | sum=0101 cout=1
+# Time=2830 | a=1000 b=1101 cin=1 | sum=0110 cout=1
+# Time=2840 | a=1000 b=1110 cin=0 | sum=0110 cout=1
+# Time=2850 | a=1000 b=1110 cin=1 | sum=0111 cout=1
+# Time=2860 | a=1000 b=1111 cin=0 | sum=0111 cout=1
+# Time=2870 | a=1000 b=1111 cin=1 | sum=1000 cout=1
+# Time=2880 | a=1001 b=0000 cin=0 | sum=1001 cout=0
+# Time=2890 | a=1001 b=0000 cin=1 | sum=1010 cout=0
+# Time=2900 | a=1001 b=0001 cin=0 | sum=1010 cout=0
+# Time=2910 | a=1001 b=0001 cin=1 | sum=1011 cout=0
+# Time=2920 | a=1001 b=0010 cin=0 | sum=1011 cout=0
+# Time=2930 | a=1001 b=0010 cin=1 | sum=1100 cout=0
+# Time=2940 | a=1001 b=0011 cin=0 | sum=1100 cout=0
+# Time=2950 | a=1001 b=0011 cin=1 | sum=1101 cout=0
+# Time=2960 | a=1001 b=0100 cin=0 | sum=1101 cout=0
+# Time=2970 | a=1001 b=0100 cin=1 | sum=1110 cout=0
+# Time=2980 | a=1001 b=0101 cin=0 | sum=1110 cout=0
+# Time=2990 | a=1001 b=0101 cin=1 | sum=1111 cout=0
+# Time=3000 | a=1001 b=0110 cin=0 | sum=1111 cout=0
+# Time=3010 | a=1001 b=0110 cin=1 | sum=0000 cout=1
+# Time=3020 | a=1001 b=0111 cin=0 | sum=0000 cout=1
+# Time=3030 | a=1001 b=0111 cin=1 | sum=0001 cout=1
+# Time=3040 | a=1001 b=1000 cin=0 | sum=0001 cout=1
+# Time=3050 | a=1001 b=1000 cin=1 | sum=0010 cout=1
+# Time=3060 | a=1001 b=1001 cin=0 | sum=0010 cout=1
+# Time=3070 | a=1001 b=1001 cin=1 | sum=0011 cout=1
+# Time=3080 | a=1001 b=1010 cin=0 | sum=0011 cout=1
+# Time=3090 | a=1001 b=1010 cin=1 | sum=0100 cout=1
+# Time=3100 | a=1001 b=1011 cin=0 | sum=0100 cout=1
+# Time=3110 | a=1001 b=1011 cin=1 | sum=0101 cout=1
+# Time=3120 | a=1001 b=1100 cin=0 | sum=0101 cout=1
+# Time=3130 | a=1001 b=1100 cin=1 | sum=0110 cout=1
+# Time=3140 | a=1001 b=1101 cin=0 | sum=0110 cout=1
+# Time=3150 | a=1001 b=1101 cin=1 | sum=0111 cout=1
+# Time=3160 | a=1001 b=1110 cin=0 | sum=0111 cout=1
+# Time=3170 | a=1001 b=1110 cin=1 | sum=1000 cout=1
+# Time=3180 | a=1001 b=1111 cin=0 | sum=1000 cout=1
+# Time=3190 | a=1001 b=1111 cin=1 | sum=1001 cout=1
+# Time=3200 | a=1010 b=0000 cin=0 | sum=1010 cout=0
+# Time=3210 | a=1010 b=0000 cin=1 | sum=1011 cout=0
+# Time=3220 | a=1010 b=0001 cin=0 | sum=1011 cout=0
+# Time=3230 | a=1010 b=0001 cin=1 | sum=1100 cout=0
+# Time=3240 | a=1010 b=0010 cin=0 | sum=1100 cout=0
+# Time=3250 | a=1010 b=0010 cin=1 | sum=1101 cout=0
+# Time=3260 | a=1010 b=0011 cin=0 | sum=1101 cout=0
+# Time=3270 | a=1010 b=0011 cin=1 | sum=1110 cout=0
+# Time=3280 | a=1010 b=0100 cin=0 | sum=1110 cout=0
+# Time=3290 | a=1010 b=0100 cin=1 | sum=1111 cout=0
+# Time=3300 | a=1010 b=0101 cin=0 | sum=1111 cout=0
+# Time=3310 | a=1010 b=0101 cin=1 | sum=0000 cout=1
+# Time=3320 | a=1010 b=0110 cin=0 | sum=0000 cout=1
+# Time=3330 | a=1010 b=0110 cin=1 | sum=0001 cout=1
+# Time=3340 | a=1010 b=0111 cin=0 | sum=0001 cout=1
+# Time=3350 | a=1010 b=0111 cin=1 | sum=0010 cout=1
+# Time=3360 | a=1010 b=1000 cin=0 | sum=0010 cout=1
+# Time=3370 | a=1010 b=1000 cin=1 | sum=0011 cout=1
+# Time=3380 | a=1010 b=1001 cin=0 | sum=0011 cout=1
+# Time=3390 | a=1010 b=1001 cin=1 | sum=0100 cout=1
+# Time=3400 | a=1010 b=1010 cin=0 | sum=0100 cout=1
+# Time=3410 | a=1010 b=1010 cin=1 | sum=0101 cout=1
+# Time=3420 | a=1010 b=1011 cin=0 | sum=0101 cout=1
+# Time=3430 | a=1010 b=1011 cin=1 | sum=0110 cout=1
+# Time=3440 | a=1010 b=1100 cin=0 | sum=0110 cout=1
+# Time=3450 | a=1010 b=1100 cin=1 | sum=0111 cout=1
+# Time=3460 | a=1010 b=1101 cin=0 | sum=0111 cout=1
+# Time=3470 | a=1010 b=1101 cin=1 | sum=1000 cout=1
+# Time=3480 | a=1010 b=1110 cin=0 | sum=1000 cout=1
+# Time=3490 | a=1010 b=1110 cin=1 | sum=1001 cout=1
+# Time=3500 | a=1010 b=1111 cin=0 | sum=1001 cout=1
+# Time=3510 | a=1010 b=1111 cin=1 | sum=1010 cout=1
+# Time=3520 | a=1011 b=0000 cin=0 | sum=1011 cout=0
+# Time=3530 | a=1011 b=0000 cin=1 | sum=1100 cout=0
+# Time=3540 | a=1011 b=0001 cin=0 | sum=1100 cout=0
+# Time=3550 | a=1011 b=0001 cin=1 | sum=1101 cout=0
+# Time=3560 | a=1011 b=0010 cin=0 | sum=1101 cout=0
+# Time=3570 | a=1011 b=0010 cin=1 | sum=1110 cout=0
+# Time=3580 | a=1011 b=0011 cin=0 | sum=1110 cout=0
+# Time=3590 | a=1011 b=0011 cin=1 | sum=1111 cout=0
+# Time=3600 | a=1011 b=0100 cin=0 | sum=1111 cout=0
+# Time=3610 | a=1011 b=0100 cin=1 | sum=0000 cout=1
+# Time=3620 | a=1011 b=0101 cin=0 | sum=0000 cout=1
+# Time=3630 | a=1011 b=0101 cin=1 | sum=0001 cout=1
+# Time=3640 | a=1011 b=0110 cin=0 | sum=0001 cout=1
+# Time=3650 | a=1011 b=0110 cin=1 | sum=0010 cout=1
+# Time=3660 | a=1011 b=0111 cin=0 | sum=0010 cout=1
+# Time=3670 | a=1011 b=0111 cin=1 | sum=0011 cout=1
+# Time=3680 | a=1011 b=1000 cin=0 | sum=0011 cout=1
+# Time=3690 | a=1011 b=1000 cin=1 | sum=0100 cout=1
+# Time=3700 | a=1011 b=1001 cin=0 | sum=0100 cout=1
+# Time=3710 | a=1011 b=1001 cin=1 | sum=0101 cout=1
+# Time=3720 | a=1011 b=1010 cin=0 | sum=0101 cout=1
+# Time=3730 | a=1011 b=1010 cin=1 | sum=0110 cout=1
+# Time=3740 | a=1011 b=1011 cin=0 | sum=0110 cout=1
+# Time=3750 | a=1011 b=1011 cin=1 | sum=0111 cout=1
+# Time=3760 | a=1011 b=1100 cin=0 | sum=0111 cout=1
+# Time=3770 | a=1011 b=1100 cin=1 | sum=1000 cout=1
+# Time=3780 | a=1011 b=1101 cin=0 | sum=1000 cout=1
+# Time=3790 | a=1011 b=1101 cin=1 | sum=1001 cout=1
+# Time=3800 | a=1011 b=1110 cin=0 | sum=1001 cout=1
+# Time=3810 | a=1011 b=1110 cin=1 | sum=1010 cout=1
+# Time=3820 | a=1011 b=1111 cin=0 | sum=1010 cout=1
+# Time=3830 | a=1011 b=1111 cin=1 | sum=1011 cout=1
+# Time=3840 | a=1100 b=0000 cin=0 | sum=1100 cout=0
+# Time=3850 | a=1100 b=0000 cin=1 | sum=1101 cout=0
+# Time=3860 | a=1100 b=0001 cin=0 | sum=1101 cout=0
+# Time=3870 | a=1100 b=0001 cin=1 | sum=1110 cout=0
+# Time=3880 | a=1100 b=0010 cin=0 | sum=1110 cout=0
+# Time=3890 | a=1100 b=0010 cin=1 | sum=1111 cout=0
+# Time=3900 | a=1100 b=0011 cin=0 | sum=1111 cout=0
+# Time=3910 | a=1100 b=0011 cin=1 | sum=0000 cout=1
+# Time=3920 | a=1100 b=0100 cin=0 | sum=0000 cout=1
+# Time=3930 | a=1100 b=0100 cin=1 | sum=0001 cout=1
+# Time=3940 | a=1100 b=0101 cin=0 | sum=0001 cout=1
+# Time=3950 | a=1100 b=0101 cin=1 | sum=0010 cout=1
+# Time=3960 | a=1100 b=0110 cin=0 | sum=0010 cout=1
+# Time=3970 | a=1100 b=0110 cin=1 | sum=0011 cout=1
+# Time=3980 | a=1100 b=0111 cin=0 | sum=0011 cout=1
+# Time=3990 | a=1100 b=0111 cin=1 | sum=0100 cout=1
+# Time=4000 | a=1100 b=1000 cin=0 | sum=0100 cout=1
+# Time=4010 | a=1100 b=1000 cin=1 | sum=0101 cout=1
+# Time=4020 | a=1100 b=1001 cin=0 | sum=0101 cout=1
+# Time=4030 | a=1100 b=1001 cin=1 | sum=0110 cout=1
+# Time=4040 | a=1100 b=1010 cin=0 | sum=0110 cout=1
+# Time=4050 | a=1100 b=1010 cin=1 | sum=0111 cout=1
+# Time=4060 | a=1100 b=1011 cin=0 | sum=0111 cout=1
+# Time=4070 | a=1100 b=1011 cin=1 | sum=1000 cout=1
+# Time=4080 | a=1100 b=1100 cin=0 | sum=1000 cout=1
+# Time=4090 | a=1100 b=1100 cin=1 | sum=1001 cout=1
+# Time=4100 | a=1100 b=1101 cin=0 | sum=1001 cout=1
+# Time=4110 | a=1100 b=1101 cin=1 | sum=1010 cout=1
+# Time=4120 | a=1100 b=1110 cin=0 | sum=1010 cout=1
+# Time=4130 | a=1100 b=1110 cin=1 | sum=1011 cout=1
+# Time=4140 | a=1100 b=1111 cin=0 | sum=1011 cout=1
+# Time=4150 | a=1100 b=1111 cin=1 | sum=1100 cout=1
+# Time=4160 | a=1101 b=0000 cin=0 | sum=1101 cout=0
+# Time=4170 | a=1101 b=0000 cin=1 | sum=1110 cout=0
+# Time=4180 | a=1101 b=0001 cin=0 | sum=1110 cout=0
+# Time=4190 | a=1101 b=0001 cin=1 | sum=1111 cout=0
+# Time=4200 | a=1101 b=0010 cin=0 | sum=1111 cout=0
+# Time=4210 | a=1101 b=0010 cin=1 | sum=0000 cout=1
+# Time=4220 | a=1101 b=0011 cin=0 | sum=0000 cout=1
+# Time=4230 | a=1101 b=0011 cin=1 | sum=0001 cout=1
+# Time=4240 | a=1101 b=0100 cin=0 | sum=0001 cout=1
+# Time=4250 | a=1101 b=0100 cin=1 | sum=0010 cout=1
+# Time=4260 | a=1101 b=0101 cin=0 | sum=0010 cout=1
+# Time=4270 | a=1101 b=0101 cin=1 | sum=0011 cout=1
+# Time=4280 | a=1101 b=0110 cin=0 | sum=0011 cout=1
+# Time=4290 | a=1101 b=0110 cin=1 | sum=0100 cout=1
+# Time=4300 | a=1101 b=0111 cin=0 | sum=0100 cout=1
+# Time=4310 | a=1101 b=0111 cin=1 | sum=0101 cout=1
+# Time=4320 | a=1101 b=1000 cin=0 | sum=0101 cout=1
+# Time=4330 | a=1101 b=1000 cin=1 | sum=0110 cout=1
+# Time=4340 | a=1101 b=1001 cin=0 | sum=0110 cout=1
+# Time=4350 | a=1101 b=1001 cin=1 | sum=0111 cout=1
+# Time=4360 | a=1101 b=1010 cin=0 | sum=0111 cout=1
+# Time=4370 | a=1101 b=1010 cin=1 | sum=1000 cout=1
+# Time=4380 | a=1101 b=1011 cin=0 | sum=1000 cout=1
+# Time=4390 | a=1101 b=1011 cin=1 | sum=1001 cout=1
+# Time=4400 | a=1101 b=1100 cin=0 | sum=1001 cout=1
+# Time=4410 | a=1101 b=1100 cin=1 | sum=1010 cout=1
+# Time=4420 | a=1101 b=1101 cin=0 | sum=1010 cout=1
+# Time=4430 | a=1101 b=1101 cin=1 | sum=1011 cout=1
+# Time=4440 | a=1101 b=1110 cin=0 | sum=1011 cout=1
+# Time=4450 | a=1101 b=1110 cin=1 | sum=1100 cout=1
+# Time=4460 | a=1101 b=1111 cin=0 | sum=1100 cout=1
+# Time=4470 | a=1101 b=1111 cin=1 | sum=1101 cout=1
+# Time=4480 | a=1110 b=0000 cin=0 | sum=1110 cout=0
+# Time=4490 | a=1110 b=0000 cin=1 | sum=1111 cout=0
+# Time=4500 | a=1110 b=0001 cin=0 | sum=1111 cout=0
+# Time=4510 | a=1110 b=0001 cin=1 | sum=0000 cout=1
+# Time=4520 | a=1110 b=0010 cin=0 | sum=0000 cout=1
+# Time=4530 | a=1110 b=0010 cin=1 | sum=0001 cout=1
+# Time=4540 | a=1110 b=0011 cin=0 | sum=0001 cout=1
+# Time=4550 | a=1110 b=0011 cin=1 | sum=0010 cout=1
+# Time=4560 | a=1110 b=0100 cin=0 | sum=0010 cout=1
+# Time=4570 | a=1110 b=0100 cin=1 | sum=0011 cout=1
+# Time=4580 | a=1110 b=0101 cin=0 | sum=0011 cout=1
+# Time=4590 | a=1110 b=0101 cin=1 | sum=0100 cout=1
+# Time=4600 | a=1110 b=0110 cin=0 | sum=0100 cout=1
+# Time=4610 | a=1110 b=0110 cin=1 | sum=0101 cout=1
+# Time=4620 | a=1110 b=0111 cin=0 | sum=0101 cout=1
+# Time=4630 | a=1110 b=0111 cin=1 | sum=0110 cout=1
+# Time=4640 | a=1110 b=1000 cin=0 | sum=0110 cout=1
+# Time=4650 | a=1110 b=1000 cin=1 | sum=0111 cout=1
+# Time=4660 | a=1110 b=1001 cin=0 | sum=0111 cout=1
+# Time=4670 | a=1110 b=1001 cin=1 | sum=1000 cout=1
+# Time=4680 | a=1110 b=1010 cin=0 | sum=1000 cout=1
+# Time=4690 | a=1110 b=1010 cin=1 | sum=1001 cout=1
+# Time=4700 | a=1110 b=1011 cin=0 | sum=1001 cout=1
+# Time=4710 | a=1110 b=1011 cin=1 | sum=1010 cout=1
+# Time=4720 | a=1110 b=1100 cin=0 | sum=1010 cout=1
+# Time=4730 | a=1110 b=1100 cin=1 | sum=1011 cout=1
+# Time=4740 | a=1110 b=1101 cin=0 | sum=1011 cout=1
+# Time=4750 | a=1110 b=1101 cin=1 | sum=1100 cout=1
+# Time=4760 | a=1110 b=1110 cin=0 | sum=1100 cout=1
+# Time=4770 | a=1110 b=1110 cin=1 | sum=1101 cout=1
+# Time=4780 | a=1110 b=1111 cin=0 | sum=1101 cout=1
+# Time=4790 | a=1110 b=1111 cin=1 | sum=1110 cout=1
+# Time=4800 | a=1111 b=0000 cin=0 | sum=1111 cout=0
+# Time=4810 | a=1111 b=0000 cin=1 | sum=0000 cout=1
+# Time=4820 | a=1111 b=0001 cin=0 | sum=0000 cout=1
+# Time=4830 | a=1111 b=0001 cin=1 | sum=0001 cout=1
+# Time=4840 | a=1111 b=0010 cin=0 | sum=0001 cout=1
+# Time=4850 | a=1111 b=0010 cin=1 | sum=0010 cout=1
+# Time=4860 | a=1111 b=0011 cin=0 | sum=0010 cout=1
+# Time=4870 | a=1111 b=0011 cin=1 | sum=0011 cout=1
+# Time=4880 | a=1111 b=0100 cin=0 | sum=0011 cout=1
+# Time=4890 | a=1111 b=0100 cin=1 | sum=0100 cout=1
+# Time=4900 | a=1111 b=0101 cin=0 | sum=0100 cout=1
+# Time=4910 | a=1111 b=0101 cin=1 | sum=0101 cout=1
+# Time=4920 | a=1111 b=0110 cin=0 | sum=0101 cout=1
+# Time=4930 | a=1111 b=0110 cin=1 | sum=0110 cout=1
+# Time=4940 | a=1111 b=0111 cin=0 | sum=0110 cout=1
+# Time=4950 | a=1111 b=0111 cin=1 | sum=0111 cout=1
+# Time=4960 | a=1111 b=1000 cin=0 | sum=0111 cout=1
+# Time=4970 | a=1111 b=1000 cin=1 | sum=1000 cout=1
+# Time=4980 | a=1111 b=1001 cin=0 | sum=1000 cout=1
+# Time=4990 | a=1111 b=1001 cin=1 | sum=1001 cout=1
+# Time=5000 | a=1111 b=1010 cin=0 | sum=1001 cout=1
+# Time=5010 | a=1111 b=1010 cin=1 | sum=1010 cout=1
+# Time=5020 | a=1111 b=1011 cin=0 | sum=1010 cout=1
+# Time=5030 | a=1111 b=1011 cin=1 | sum=1011 cout=1
+# Time=5040 | a=1111 b=1100 cin=0 | sum=1011 cout=1
+# Time=5050 | a=1111 b=1100 cin=1 | sum=1100 cout=1
+# Time=5060 | a=1111 b=1101 cin=0 | sum=1100 cout=1
+# Time=5070 | a=1111 b=1101 cin=1 | sum=1101 cout=1
+# Time=5080 | a=1111 b=1110 cin=0 | sum=1101 cout=1
+# Time=5090 | a=1111 b=1110 cin=1 | sum=1110 cout=1
+# Time=5100 | a=1111 b=1111 cin=0 | sum=1110 cout=1
+# Time=5110 | a=1111 b=1111 cin=1 | sum=1111 cout=1
+# ** Note: $finish    : C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v(36)
+#    Time: 5200 ps  Iteration: 0  Instance: /ripple_carry_adder_4bit_tb
+# 1
+# Break in Module ripple_carry_adder_4bit_tb at C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q3/sim/../tb/ripple_carry_adder_4bit_tb.v line 36

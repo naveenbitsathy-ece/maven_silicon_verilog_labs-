@@ -1,0 +1,15 @@
+C:/Maven_silicon_Verilog_labs/lab5/Assignments/Q3/tb/siso_4bit_tb.v {1 {vlog -work work -stats=none C:/Maven_silicon_Verilog_labs/lab5/Assignments/Q3/tb/siso_4bit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module siso_4bit_tb
+
+Top level modules:
+	siso_4bit_tb
+
+} {} {}} C:/Maven_silicon_Verilog_labs/lab5/Assignments/Q3/sim/siso_4bit.v {1 {vlog -work work -stats=none C:/Maven_silicon_Verilog_labs/lab5/Assignments/Q3/sim/siso_4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module siso_4bit
+
+Top level modules:
+	siso_4bit
+
+} {} {}}

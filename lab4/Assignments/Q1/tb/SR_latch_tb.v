@@ -1,0 +1,30 @@
+module SR_latch_tb();
+reg s;
+reg r;
+wire Q;
+wire Q_bar;
+
+SR_latch DUT(
+.s(s),
+.r(r),
+.Q(Q),
+.Q_bar(Q_bar)
+);
+initial 
+begin
+s=0;r=0; #10; //hold
+s=1;r=0; #10; //set
+s=0;r=0; #10; //hold
+s=0;r=1; #10; //reset
+s=0;r=0; #10; //hold
+s=1;r=1; #10; //invalid 
+//$finish
+end
+initial 
+begin
+
+    $monitor(
+    "Time=%0t S=%b R=%b Q=%b Q_bar=%b",
+    $time,s,r,Q,Q_bar);
+end
+endmodule 

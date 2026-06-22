@@ -1,0 +1,46 @@
+|priority_encoder
+d7 => WideOr0.IN3
+d7 => WideOr1.IN3
+d7 => WideOr2.IN3
+d7 => WideOr3.IN7
+d7 => o6.IN0
+d7 => WideAnd0.IN0
+d7 => WideAnd1.IN0
+d7 => WideAnd2.IN0
+d7 => WideAnd3.IN0
+d7 => WideAnd4.IN0
+d7 => WideAnd5.IN0
+d6 => o6.IN1
+d6 => WideAnd0.IN1
+d6 => WideAnd1.IN1
+d6 => WideAnd2.IN1
+d6 => WideAnd3.IN1
+d6 => WideAnd4.IN1
+d6 => WideAnd5.IN1
+d5 => WideAnd0.IN2
+d5 => WideAnd1.IN2
+d5 => WideAnd2.IN2
+d5 => WideAnd3.IN2
+d5 => WideAnd4.IN2
+d5 => WideAnd5.IN2
+d4 => WideAnd1.IN3
+d4 => WideAnd2.IN3
+d4 => WideAnd3.IN3
+d4 => WideAnd4.IN3
+d4 => WideAnd5.IN3
+d3 => WideAnd2.IN4
+d3 => WideAnd3.IN4
+d3 => WideAnd4.IN4
+d3 => WideAnd5.IN4
+d2 => WideAnd3.IN5
+d2 => WideAnd4.IN5
+d2 => WideAnd5.IN5
+d1 => WideAnd4.IN6
+d1 => WideAnd5.IN6
+d0 => WideAnd5.IN7
+y0 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+y1 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+valid <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+
+

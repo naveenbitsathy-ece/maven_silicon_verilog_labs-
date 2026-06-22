@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/sim/simulation/modelsim
+vmux_2to1
+Z1 !s110 1781065419
+!i10b 1
+!s100 S8NJR:0`FhczJaCN]P5hH0
+Iz_z:^WHOOFk9AB184=lg<0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1781064849
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_2to1.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_2to1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1781065419.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_2to1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl
+Z7 tCvgOpt 0
+vmux_4to1_tb
+R1
+!i10b 1
+!s100 XFHfVFbo>MkedHjd6PNI^3
+I]`?:@lK?cL4bOmKTR=6503
+R2
+R0
+w1781065351
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/sim/../tb/mux_4to1_tb.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/sim/../tb/mux_4to1_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/sim/../tb/mux_4to1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/sim/../tb|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/sim/../tb/mux_4to1_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/sim/../tb
+R7
+vmux_4to1_using_mux2
+R1
+!i10b 1
+!s100 ?Ge;m1i;2DDJOUC;o5m_=0
+Imfn@9KJh3GR<NXTg^o53Y1
+R2
+R0
+w1781064957
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_4to1_using_mux2.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_4to1_using_mux2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_4to1_using_mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q4/rtl/mux_4to1_using_mux2.v|
+!i113 1
+R5
+R6
+R7

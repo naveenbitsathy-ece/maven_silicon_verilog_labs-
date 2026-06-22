@@ -1,0 +1,5 @@
+|clk_buffer
+clk => b1.DATAIN
+data_out <= b1.DB_MAX_OUTPUT_PORT_TYPE
+
+

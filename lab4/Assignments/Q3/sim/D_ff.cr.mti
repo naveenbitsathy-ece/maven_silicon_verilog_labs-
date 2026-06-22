@@ -1,0 +1,22 @@
+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/rtl/T_ff.v {1 {vlog -work work -stats=none {C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\rtl\T_ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module T_ff
+
+Top level modules:
+	T_ff
+
+} {} {}} C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/rtl/D_ff.v {1 {vlog -work work -stats=none C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/rtl/D_ff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module D_ff
+
+Top level modules:
+	D_ff
+
+} {} {}} C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/tb/T_ff_tb.v {1 {vlog -work work -stats=none {C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\tb\T_ff_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module T_ff_tb
+
+Top level modules:
+	T_ff_tb
+
+} {} {}}

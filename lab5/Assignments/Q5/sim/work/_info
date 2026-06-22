@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vfifo_8bit
+!s110 1781612084
+!i10b 1
+!s100 ^=UHLlOHK6OdIFbbj=zFE3
+ITCVLYB=UDYbTV>oI0S`B80
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Maven_silicon_Verilog_labs/lab5/Assignments/Q5/sim
+w1781612080
+8C:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\sim\fifo_8bit.v
+FC:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\sim\fifo_8bit.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1781612084.000000
+!s107 C:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\sim\fifo_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\sim\fifo_8bit.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vfifo_8bitItb
+!s110 1781612256
+!i10b 1
+!s100 I3ENhFF@R?KkiSzLjSUOK3
+IfU`SCS8glzVW3g[c8Q?O]2
+R0
+R1
+w1781612243
+8C:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\tb\fifo_8bit_tb.v
+FC:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\tb\fifo_8bit_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1781612256.000000
+!s107 C:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\tb\fifo_8bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\tb\fifo_8bit_tb.v|
+!i113 1
+R3
+R4
+nfifo_8bit@itb

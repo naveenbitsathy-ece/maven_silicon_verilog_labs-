@@ -1,0 +1,15 @@
+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab5/Assignments/Q1/tb/ram_dp_tb.v {1 {vlog -work work -stats=none {C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\tb\ram_dp_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_dp_tb
+
+Top level modules:
+	ram_dp_tb
+
+} {} {}} C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab5/Assignments/Q1/rtl/ram_dp.v {1 {vlog -work work -stats=none {C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\rtl\ram_dp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_dp
+
+Top level modules:
+	ram_dp
+
+} {} {}}

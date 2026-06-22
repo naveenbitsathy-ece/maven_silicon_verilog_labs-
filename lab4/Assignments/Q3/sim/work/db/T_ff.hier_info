@@ -1,0 +1,16 @@
+|T_ff
+clk => clk.IN1
+t => d.IN1
+reset => reset.IN1
+q << D_ff:DUT.q
+qb << D_ff:DUT.q
+
+
+|T_ff|D_ff:DUT
+clk => q~reg0.CLK
+d => q.DATAA
+reset => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qb <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

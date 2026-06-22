@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vram_dp
+!s110 1781333319
+!i10b 1
+!s100 AlhkDc:FhJ=_P@]hlM99@0
+I490mL33hUe8@E9k^HeZk83
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab5/Assignments/Q1/sim
+w1781332845
+8C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\rtl\ram_dp.v
+FC:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\rtl\ram_dp.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1781333319.000000
+!s107 C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\rtl\ram_dp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\rtl\ram_dp.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vram_dp_tb
+!s110 1781340501
+!i10b 1
+!s100 m=58]B]eLaNblbk827EU_0
+IOm6hYBPMLdD1lfQ`DNUXm0
+R0
+R1
+w1781340495
+8C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\tb\ram_dp_tb.v
+FC:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\tb\ram_dp_tb.v
+L0 24
+R2
+r1
+!s85 0
+31
+!s108 1781340501.000000
+!s107 C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\tb\ram_dp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab5\Assignments\Q1\tb\ram_dp_tb.v|
+!i113 1
+R3
+R4

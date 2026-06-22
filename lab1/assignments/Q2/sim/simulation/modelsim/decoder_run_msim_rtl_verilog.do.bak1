@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/3436-verilog_labs_f/Verilog_labs/lab1/assignments/Q2/rtl {C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/3436-verilog_labs_f/Verilog_labs/lab1/assignments/Q2/rtl/decoder.v}
+

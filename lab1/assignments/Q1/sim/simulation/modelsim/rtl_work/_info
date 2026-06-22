@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/sim/simulation/modelsim
+vfull_adder
+!s110 1781063141
+!i10b 1
+!s100 7ATl[0bDC]4C0U<m[4iKK1
+IHn=61@b:lzH;;a6Ai@[6M2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1773316219
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/rtl/full_adder.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/rtl/full_adder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1781063141.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/rtl/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/rtl|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/rtl/full_adder.v|
+!i113 1
+Z3 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/rtl
+Z4 tCvgOpt 0
+vfull_adder_tb
+!s110 1781063142
+!i10b 1
+!s100 58miL>ZK<k6SFk`8<ITS;1
+IT60ZeGoT<T1cSYB0gEoli1
+R1
+R0
+w1592478586
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/sim/../../../tb/full_adder_tb.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/sim/../../../tb/full_adder_tb.v
+L0 24
+R2
+r1
+!s85 0
+31
+!s108 1781063142.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/sim/../../../tb/full_adder_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/sim/../../../tb|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/sim/../../../tb/full_adder_tb.v|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab1/assignments/Q1/sim/../../../tb
+R4

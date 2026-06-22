@@ -1,0 +1,15 @@
+C:/Maven_silicon_Verilog_labs/lab6/Assignments/Q1/rtl/vending_machine.v {1 {vlog -work work -stats=none C:/Maven_silicon_Verilog_labs/lab6/Assignments/Q1/rtl/vending_machine.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vending_machine
+
+Top level modules:
+	vending_machine
+
+} {} {}} C:/Maven_silicon_Verilog_labs/lab6/Assignments/Q1/tb/vending_machine_tb.v {1 {vlog -work work -stats=none C:/Maven_silicon_Verilog_labs/lab6/Assignments/Q1/tb/vending_machine_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vending_machine_tb
+
+Top level modules:
+	vending_machine_tb
+
+} {} {}}

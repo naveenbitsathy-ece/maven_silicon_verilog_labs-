@@ -1,0 +1,15 @@
+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q4/rtl/fourbit_counter.v {1 {vlog -work work -stats=none C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q4/rtl/fourbit_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fourbit_counter
+
+Top level modules:
+	fourbit_counter
+
+} {} {}} C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q4/tb/fourbit_counter_tb.v {1 {vlog -work work -stats=none C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q4/tb/fourbit_counter_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fourbit_counter_tb
+
+Top level modules:
+	fourbit_counter_tb
+
+} {} {}}

@@ -1,0 +1,82 @@
+`timescale 1ns/1ps
+
+module bidirectional_buffer_tb;
+
+// Testbench signals
+reg DIR;
+
+// Drivers for A and B
+reg A_drv;
+reg B_drv;
+
+// Wires connected to DUT
+wire A;
+wire B;
+
+
+// Drive A only when DIR=1
+assign A = (DIR) ? A_drv : 1'bz;
+
+
+// Drive B only when DIR=0
+assign B = (~DIR) ? B_drv : 1'bz;
+
+
+// Instantiate DUT
+bidirectional_buffer uut(
+
+    .A(A),
+    .B(B),
+    .dir(dir)
+
+);
+
+
+initial
+begin
+
+    // A --> B
+
+    DIR   = 1;
+    A_drv = 1;
+    B_drv = 1'bz;
+
+    #10;
+
+
+    DIR   = 1;
+    A_drv = 0;
+
+    #10;
+
+
+    // B --> A
+
+    DIR   = 0;
+    B_drv = 1;
+    A_drv = 1'bz;
+
+    #10;
+
+
+    DIR   = 0;
+    B_drv = 0;
+
+    #10;
+
+
+    $finish;
+
+end
+
+
+initial
+begin
+
+    $monitor(
+    "Time=%0t DIR=%b A=%b B=%b",
+    $time,DIR,A,B);
+
+end
+
+endmodule

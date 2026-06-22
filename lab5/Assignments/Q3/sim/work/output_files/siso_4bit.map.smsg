@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at siso_4bit.v(8): always construct contains both blocking and non-blocking assignments File: C:/Maven_silicon_Verilog_labs/lab5/Assignments/Q3/rtl/siso_4bit.v Line: 8

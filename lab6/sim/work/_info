@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vseq_det
+Z0 !s110 1781617296
+!i10b 1
+!s100 IC<ZcPenPF6NBZhN89j>b2
+IB]02[6R9jj7[:C^UbA^c61
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Maven_silicon_Verilog_labs/lab6/sim
+w1781617198
+8C:/Maven_silicon_Verilog_labs/lab6/rtl/seq_det.v
+FC:/Maven_silicon_Verilog_labs/lab6/rtl/seq_det.v
+Z3 L0 25
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1781617296.000000
+!s107 C:/Maven_silicon_Verilog_labs/lab6/rtl/seq_det.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Maven_silicon_Verilog_labs/lab6/rtl/seq_det.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vseq_det_tb
+R0
+!i10b 1
+!s100 6hRA>@F@:eOQ6`<bh849l1
+IC@MniU@`a1aAFH751j6K51
+R1
+R2
+w1781617225
+8C:/Maven_silicon_Verilog_labs/lab6/sim/seq_det_tb.v
+FC:/Maven_silicon_Verilog_labs/lab6/sim/seq_det_tb.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Maven_silicon_Verilog_labs/lab6/sim/seq_det_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Maven_silicon_Verilog_labs/lab6/sim/seq_det_tb.v|
+!i113 1
+R6
+R7

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+valu
+!s110 1780644915
+!i10b 1
+!s100 Hbk7DE4M^k`[CA`lZ3XAg0
+INYnK48C]5XKNefD;_95X81
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/sim
+w1773734117
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/rtl/alu.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/rtl/alu.v
+L0 24
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1780644915.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/rtl/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/rtl/alu.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+valu_tb
+!s110 1780646279
+!i10b 1
+!s100 ;1gZWSY1Y8RFcjG1h`gJH1
+IJj61<VKYPejmGPMD8_z7E2
+R0
+R1
+w1780646274
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/sim/alu_tb.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/sim/alu_tb.v
+L0 23
+R2
+r1
+!s85 0
+31
+!s108 1780646279.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/sim/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab2/sim/alu_tb.v|
+!i113 1
+R3
+R4

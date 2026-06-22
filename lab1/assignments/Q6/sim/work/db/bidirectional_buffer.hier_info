@@ -1,0 +1,7 @@
+|bidirectional_buffer
+A <> A
+B <> B
+dir => B.OE
+dir => A.OE
+
+

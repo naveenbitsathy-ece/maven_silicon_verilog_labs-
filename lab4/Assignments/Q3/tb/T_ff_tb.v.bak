@@ -1,0 +1,95 @@
+`timescale 1ns/1ps
+
+module T_ff_tb();
+
+
+// Testbench inputs
+reg clk;
+reg t;
+reg reset;
+
+
+// Outputs from DUT
+wire q;
+wire qb;
+
+
+// Instantiate DUT
+T_ff DUT(
+
+    .clk(clk),
+    .t(t),
+    .q(q),
+.reset(reset),
+    .qb(qb)
+
+);
+
+// Initialize clock
+initial
+    clk = 1'b0;
+
+
+// Generate clock
+// Clock period = 10ns
+always #5 clk = ~clk;
+
+
+// Apply test cases
+initial
+begin
+
+
+  reset = 1'b1;
+  t     = 1'b0;
+#15;
+
+    // ---------------------
+    // HOLD CONDITION
+    // T = 0
+    // Q should remain same
+    // ---------------------
+    t = 0;
+    #20;
+
+
+    // ---------------------
+    // TOGGLE CONDITION
+    // T = 1
+    // Q toggles every clock
+    // ---------------------
+    t = 1;
+    #40;
+
+
+    // ---------------------
+    // HOLD AGAIN
+    // ---------------------
+    t = 0;
+    #20;
+
+
+    // ---------------------
+    // TOGGLE AGAIN
+    // ---------------------
+    t = 1;
+    #40;
+
+
+    // End simulation
+    $finish;
+
+end
+
+
+// Display signal values
+initial
+begin
+
+    $monitor(
+    "Time=%0t clk=%b t=%b q=%b qb=%b",
+     $time, clk, t, q, qb);
+
+end
+
+endmodule

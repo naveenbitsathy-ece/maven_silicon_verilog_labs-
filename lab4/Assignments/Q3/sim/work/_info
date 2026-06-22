@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vD_ff
+Z0 !s110 1780731376
+!i10b 1
+!s100 >]F?C=daU:8ERZCV7;dF32
+IglTzUBUl5G7@zQ6@1Ua?j2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/sim
+w1780730415
+8C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/rtl/D_ff.v
+FC:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/rtl/D_ff.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1780731376.000000
+!s107 C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/rtl/D_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q3/rtl/D_ff.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@d_ff
+vT_ff
+R0
+!i10b 1
+!s100 <eTE]Y^CkBk42zGKMoKcY0
+IJ74<l;ohC?iVBXPm@8k7n2
+R1
+R2
+w1780731366
+8C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\rtl\T_ff.v
+FC:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\rtl\T_ff.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\rtl\T_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\rtl\T_ff.v|
+!i113 1
+R5
+R6
+n@t_ff
+vT_ff_tb
+R0
+!i10b 1
+!s100 XkI_W0kh2[R6Mij_j<J553
+I6TzzDD<^6O@_>i:Fmindj1
+R1
+R2
+w1780730755
+8C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\tb\T_ff_tb.v
+FC:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\tb\T_ff_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\tb\T_ff_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Naveenraj\OneDrive\Documents\Maven_silicon_Verilog_labs\lab4\Assignments\Q3\tb\T_ff_tb.v|
+!i113 1
+R5
+R6
+n@t_ff_tb

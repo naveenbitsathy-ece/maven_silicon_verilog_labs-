@@ -1,0 +1,26 @@
+module priority_encoder(d7,d6,d5,d4,d3,d2,d1,d0,y0,y1,y2,valid);
+input d7,d6,d5,d4,d3,d2,d1,d0;
+output y2,y1,y0,valid;
+wire n7,n6,n5,n4,n3,n2,n1,n0;
+not(n7,d7);
+not(n6,d6);
+not(n5,d5);
+not(n4,d4);
+not(n3,d3);
+not(n2,d2);
+not(n1,d1);
+not(n0,d0);
+wire o7,o6,o5,o4,o3,o2,o1,o0;
+assign o7=d7;
+and(o6,d6,n7);
+and(o5,d5,n6,n7);
+and(o4,d4,n5,n6,n7);
+and(o3,d3,n4,n5,n6,n7);
+and(o2,d2,n3,n4,n5,n6,n7);
+and(o1,d1,n2,n3,n4,n5,n6,n7);
+and(o0,d0,n1,n2,n3,n4,n5,n6,n7);
+or(y0,o7,o5,o3,o1);
+or(y1,o7,o6,o3,o2);
+or(y2,o7,o6,o5,o4);
+or(valid,o7,o6,o5,o4,o3,o2,o1,o0);
+endmodule 

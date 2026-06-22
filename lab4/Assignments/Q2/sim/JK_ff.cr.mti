@@ -1,0 +1,15 @@
+C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q2/rtl/JK_FF.v {1 {vlog -work work -stats=none C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q2/rtl/JK_FF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module JK_ff
+
+Top level modules:
+	JK_ff
+
+} {} {}} C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q2/tb/JK_FF_tb.v {1 {vlog -work work -stats=none C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab4/Assignments/Q2/tb/JK_FF_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module JK_ff_tb
+
+Top level modules:
+	JK_ff_tb
+
+} {} {}}

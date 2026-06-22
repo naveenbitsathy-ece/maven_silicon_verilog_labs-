@@ -1,0 +1,43 @@
+module T_ff(
+
+    input clk,      // Clock input
+    input t,        // Toggle input
+input reset,
+    output q,       // Main output
+    output qb       // Complement output
+
+);
+
+// Internal wire connected to D input of DFF
+wire d;
+
+// Internal wire to hold DFF output
+wire q_int;
+
+
+// T Flip-Flop Equation
+// T=0 --> D=Q (Hold)
+// T=1 --> D=~Q (Toggle)
+assign d = t ^ q_int;
+
+
+// Instantiate D Flip-Flop
+D_ff DUT(
+
+    .clk(clk),      // Connect clock
+    .d(d),          // Connect generated D signal
+    .reset(reset),
+    .q(q_int),      // Internal output
+    .qb()           // Unused output
+
+);
+
+
+// Connect internal output to module output
+assign q = q_int;
+
+
+// Generate complement output
+assign qb = ~q_int;
+
+endmodule

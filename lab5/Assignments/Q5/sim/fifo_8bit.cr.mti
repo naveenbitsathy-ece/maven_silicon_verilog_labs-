@@ -1,0 +1,8 @@
+C:/Maven_silicon_Verilog_labs/lab5/Assignments/Q5/sim/fifo_8bit.v {1 {vlog -work work -stats=none {C:\Maven_silicon_Verilog_labs\lab5\Assignments\Q5\sim\fifo_8bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fifo_8bit
+
+Top level modules:
+	fifo_8bit
+
+} {} {}}

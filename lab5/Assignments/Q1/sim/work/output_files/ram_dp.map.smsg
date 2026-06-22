@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ram_dp.v(9): always construct contains both blocking and non-blocking assignments File: C:/Users/Naveenraj/OneDrive/Documents/Maven_silicon_Verilog_labs/lab5/Assignments/Q1/rtl/ram_dp.v Line: 9

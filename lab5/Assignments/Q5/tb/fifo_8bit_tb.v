@@ -1,0 +1,57 @@
+module fifo_8bitItb();
+ reg clk,reset_n;
+reg write_n,read_n;
+reg [7:0]data_in;
+wire [7:0]data_out;
+wire full,empty;
+
+reg [7:0]fifo[15:0];
+reg [3:0]wr_ptr,rd_ptr;
+reg [4:0]count;
+
+fifo_8bit DUT(
+ clk,reset_n,write_n,read_n,data_in,data_out,full,empty
+);
+integer i;
+initial 
+    clk=0;
+    always #5 clk=~clk;
+
+initial 
+begin
+    reset_n=0;
+    #10
+    reset_n=1; 
+end 
+
+task stimula;
+input a,b;
+ input [7:0]c;
+ begin
+    write_n=a;
+    read_n=b;
+    data_in=c;
+    #10;
+ end
+endtask
+
+ initial
+  begin
+    stimula(1,0,8'b10011001);  //write 
+      stimula(1,0,8'b11011001);  //write 
+     stimula(1,0,8'b10001001);  //write 
+
+      stimula(0,1,8'b10001001);  //read
+
+
+       stimula(1,1,8'b10001001);  //write and read 
+        stimula(1,1,8'b10001001);  //write and read
+$finish;
+ end
+
+initial
+begin
+    $monitor("Time=%0t reset_n=%b write_n=%b read_n=%b data_in=%b data_out=%b",$time,reset_n,write_n,read_n,
+    data_in,data_out);
+end 
+endmodule

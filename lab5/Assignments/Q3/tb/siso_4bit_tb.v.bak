@@ -1,0 +1,45 @@
+module siso_4bit_tb();
+ reg clk,rst,en;
+ reg data_in;
+  wire data_out;
+  reg[3:0]siso;
+
+  fifo_4bit DUT(
+    clk,rst,en,data_in,data_out);
+  initial 
+    clk=1;
+always
+#5 clk=~clk;
+
+initial 
+begin
+    en=1'b0;
+    rst=1'b1;
+    #10      
+    en=1'b1;              //Reset 
+    rst=1'b0;
+end
+
+initial 
+begin
+   #10
+   data_in=1;#10
+   data_in=0;#10
+   data_in=1;#10
+   data_in=1;#10
+  
+  data_in=1;#10
+   data_in=1;#10
+   data_in=0;#10
+   data_in=1;#10
+  
+  #100 $finish;
+end
+
+  initial 
+    begin
+      $monitor("Time =%0t clk=%b rst=%b  en=%b data_in=%b  data_out=%b",$time,clk,rst,en,data_in,data_out);
+    end 
+  
+  
+endmodule

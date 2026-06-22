@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at fifo_8bit.v(12): always construct contains both blocking and non-blocking assignments File: C:/Maven_silicon_Verilog_labs/lab5/Assignments/Q5/rtl/fifo_8bit.v Line: 12
